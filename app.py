@@ -34,4 +34,4 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello! Site have been veseted {} times '.format(count[0][0])+'last at: ' + count[0][1]
+    return 'Hello! Site have been visited {} times '.format(count[0][0])+'last at: ' + count[0][1]
