@@ -22,7 +22,7 @@ jobs:
         KEY: ${{ secrets.SSHKEY }}
       with:
         source: "."
-        target: "/var/www/mywebsite"
+        target: "/app/docker_database"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
