@@ -34,4 +34,4 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello World! I have been seen {} times '.format(count[0][0])+'last at: ' + count[0][1]
+    return 'Hello! You have been seen {} times '.format(count[0][0])+'last at: ' + count[0][1]
